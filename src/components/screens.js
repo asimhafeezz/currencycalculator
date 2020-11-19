@@ -39,11 +39,12 @@ function Screens() {
     <NavigationContainer>
       <Stack.Navigator>
         <Stack.Screen options={{
+          headerTitle: "",
             headerRight: () => (
-                <Icon name="setting" size={50} />
-                // <Button
-                //   onPress={() => alert('This is a button!')}
-                // >set</Button>
+                // <Icon name="setting" size={50} />
+                <Button
+                  onPress={() => alert('This is a button!')}
+                >set</Button>
               ),
             headerStyle: {
                 backgroundColor: colors.bg,
