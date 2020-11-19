@@ -16,15 +16,12 @@ import {
   StatusBar,
 } from 'react-native';
 import ScreenStack from './src/components/homeScreen';
+import Screens from './src/components/screens';
 
 
 const App = () => {
   return (
-    <>
-      <SafeAreaView>
-        <ScreenStack />
-      </SafeAreaView>
-    </>
+        <Screens />
   );
 };
 
